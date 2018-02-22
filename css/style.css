@@ -1,0 +1,50 @@
+body {
+ display: flex;
+ min-height: 100vh;
+ flex-direction: column;
+}
+
+main {
+ flex: 1 0 auto;
+}
+
+.logo{/*controlando o tamanho do logo*/
+  width: 230px;
+}
+
+.imgfooter{
+  width: 160px;
+}
+
+.missao{
+  width: 150px;
+  margin: 15px;
+}
+
+.ul ul {
+  list-style: none;
+}
+.ul ul li{
+  display: inline;
+  margin: 15px;
+}
+
+.ul ul li a i{
+    transition: all 0.3s;
+}
+
+.ul ul li a i:hover{
+	font-size: 250%;
+}
+
+.cormenu{
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.corfooter{
+  background: #8B0000;
+}
+
+.imgservicos{
+  width: 50px;
+}
